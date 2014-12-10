@@ -1,0 +1,6 @@
+{{ get_doctype() }}
+<h1>Sign Up</h1> 
+
+<?php echo Phalcon\Tag::linkTo("signup", "Sign Up Here!"); ?>
+
+<?= $this->tag->linkTo(array('index/signup', 'class' => 'edit-btn')) ?>

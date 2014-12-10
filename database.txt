@@ -1,0 +1,4 @@
+CREATE DATABASE phalcon_test;
+CREATE USER 'phalcon_dev'@'localhost' IDENTIFIED BY '';
+GRANT ALL PRIVILEGES on phalcon_test.* to 'phalcon_dev'@'localhost';
+
